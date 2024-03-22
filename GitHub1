@@ -23,3 +23,11 @@ public double dividir(double a, double b) {
 	
     }
 
+public static void actaulizarHistorial(String operacion) {
+
+	historial[2] = historial[1];
+	historial[1] = historial[0];
+	historial[0] = operacion;
+	
+}
+
