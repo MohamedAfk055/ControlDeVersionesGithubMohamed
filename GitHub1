@@ -6,6 +6,8 @@ int b=8;
 return a*b;
 }
 
-  public static String[] getHistorial() {
-        return historial;
+  	public double dividir(double a, double b) {
+		// TODO Auto-generated method stub
+		return a/b;
+	
     }
