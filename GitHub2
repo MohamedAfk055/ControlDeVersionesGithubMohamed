@@ -1,5 +1,8 @@
-public boolean division(){
-int a =9;
-int b=3;
-return a/b;
-}
+ public double raizCuadrada(double a) {
+        if (a >= 0) {
+            return Math.sqrt(a);
+        } else {
+            throw new IllegalArgumentException("No se puede calcular la raíz cuadrada de un número negativo");
+        }
+    
+
