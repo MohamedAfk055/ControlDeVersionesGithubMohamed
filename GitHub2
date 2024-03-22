@@ -1,8 +1,13 @@
- public double raizCuadrada(double a) {
-        if (a >= 0) {
-            return Math.sqrt(a);
+  public double[] ecuacionSegundoGrado(double a, double b, double c) {
+        double discriminante = Math.pow(b, 2) - 4 * a * c;
+        if (discriminante >= 0) {
+            double[] raices = new double[2];
+            raices[0] = (-b + Math.sqrt(discriminante)) / (2 * a);
+            raices[1] = (-b - Math.sqrt(discriminante)) / (2 * a);
+            return raices;
         } else {
-            throw new IllegalArgumentException("No se puede calcular la raíz cuadrada de un número negativo");
+            throw new IllegalArgumentException("La ecuación no tiene soluciones reales");
         }
+    } 
     
 
