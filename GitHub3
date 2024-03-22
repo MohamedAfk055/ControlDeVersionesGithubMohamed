@@ -1,1 +1,8 @@
+  public static double calcularLogaritmo(double a) {
+        if (a > 0) {
+            return Math.log10(a);
+        } else {
+            throw new IllegalArgumentException("No se puede calcular el logaritmo de un número que no es positivo");
+        }
+    }
 
