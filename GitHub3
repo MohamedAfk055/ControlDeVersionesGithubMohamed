@@ -3,11 +3,8 @@
     }
 
 
-    public static void verHistorial() {
-        System.out.println("Historial de las últimas 3 operaciones:");
-        for (int i = 0; i < 3; i++) {
-            if (historial[i] != null) {
-                System.out.println(historial[i]);
-            }
-        }
+    public static void actualizarHistorial(String operacion) {
+        historial[2] = historial[1];
+        historial[1] = historial[0];
+        historial[0] = operacion;
     }
