@@ -1,7 +1,7 @@
-//Segundo Commit
-//Funcion de resta
+//Tercer Commit
+//Funcion de multiplicacion
 public boolean sumar() {
-int a=9;
-int b=3;
-return a-b;
+int a=5;
+int b=8;
+return a*b;
 }
