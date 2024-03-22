@@ -6,11 +6,6 @@ int b=8;
 return a*b;
 }
 
-    public static void verHistorial() {
-        System.out.println("Historial de las últimas 3 operaciones:");
-        for (int i = 0; i < 3; i++) {
-            if (historial[i] != null) {
-                System.out.println(historial[i]);
-            }
-        }
+  public static String[] getHistorial() {
+        return historial;
     }
