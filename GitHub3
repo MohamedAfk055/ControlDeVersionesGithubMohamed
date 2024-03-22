@@ -1,3 +1,10 @@
  public static double potencia(double base, double exponente) {
         return Math.pow(base, exponente);
     }
+
+
+    public static void actualizarHistorial(String operacion) {
+        historial[2] = historial[1];
+        historial[1] = historial[0];
+        historial[0] = operacion;
+    }

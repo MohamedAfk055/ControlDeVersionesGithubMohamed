@@ -5,3 +5,7 @@ int a=5;
 int b=8;
 return a*b;
 }
+
+  public static String[] getHistorial() {
+        return historial;
+    }
